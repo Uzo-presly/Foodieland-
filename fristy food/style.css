@@ -1,0 +1,33 @@
+/* resetting the connected html pages */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {margin: .5vw;
+background-color: #f7a8f741;}
+
+nav {background-color: hsla(0, 64%, 76%, 0.418);
+  display: flex;
+ justify-content: flex-end; 
+  align-items: center;
+
+  border: 2px solid yellowgreen;
+  text-decoration: none;
+}
+
+.logo {margin-right: 20vw;}
+.nav-link {
+  column-gap: 5.0vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ #a {/* border: 3px solid rgb(41, 21, 7); margin-left: 10%; */
+font-size: 0.9rem;} 
+ #b {/* border: 3px solid rgb(41, 21, 7); */
+margin-left: 20%;} 
+.inline {display: inline-block;
+background-color: bisque;}
